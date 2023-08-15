@@ -534,6 +534,11 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.my-7 {
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -544,6 +549,18 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
 }
 
 .flex {
