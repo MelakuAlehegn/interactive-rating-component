@@ -14,7 +14,7 @@
 
 <body class="bg-veryDarkBlue font-sans text-base flex flex-col items-center">
   <main class="text-white flex h-screen items-center justify-center p-6 mb-0">
-    <div class="bg-gradient-to-b from-from-50 to-to-50 flex flex-col justify-center p-6 rounded-2xl sm:w-96">
+    <div class="bg-gradient-to-b from-from-50 to-to-50 hidden flex-col justify-center p-6 rounded-2xl sm:w-96">
       <div>
         <img class="bg-darkBlue p-2 rounded-full w-10 h-10" src="./images/icon-star.svg" alt="star icon" />
       </div>
@@ -42,15 +42,16 @@
         class="mt-6 bg-orange rounded-full py-3 uppercase font-sans tracking-widest  hover:bg-white hover:text-orange text-bold transition duration-300">Submit</button>
       <!-- Rating state end -->
       <!-- Thank you state start -->
-      <!-- <div>
-        <img src="./images/illustration-thank-you.svg" alt="thankyou image">
-        <p> You selected 4 out of 5 </p>
-        <h3> Thank you! </h3>
-        <p> We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in
-          touch! </p>
-      </div> -->
-      <!-- Thank you state end -->
     </div>
+    <div
+      class="flex bg-gradient-to-b from-from-50 to-to-50 flex-col justify-center p-6 rounded-2xl sm:w-96 items-center text-center">
+      <img class="w-28" src="./images/illustration-thank-you.svg" alt="thankyou image">
+      <p class="text-orange bg-darkBlue text-sm px-4 py-1 rounded-full mt-6 mb-0"> You selected 4 out of 5 </p>
+      <h3 class="mt-8 mb-0 font-bold text-2xl"> Thank you! </h3>
+      <p class="mt-0 text-lightGrey p-4"> We appreciate you taking the time to give a rating. If you ever need more
+        support, don’t hesitate to get in touch! </p>
+    </div>
+    <!-- Thank you state end -->
   </main>
   <footer class="bg-veryDarkBlue text-white mb-7 mt-0"> Challenge by <a
       href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
