@@ -1,4 +1,4 @@
-const button = document.querySelectorAll('#btn')
+const button = document.querySelectorAll('.btn')
 const submit = document.querySelector('#submit')
 let btnValue = 0
 
