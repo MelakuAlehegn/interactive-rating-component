@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     screens: {
       sm: "375px",
-      lg: "976",
-      xl: "1440px"
+      lg: "976px",
+      custom: "500px"
     },
     extend: {
       colors: {
@@ -15,11 +15,19 @@ module.exports = {
         mediumGrey: "hsl(216, 12%, 54%)",
         darkBlue: "hsl(213, 19%, 18%)",
         veryDarkBlue: "hsl(216, 12%, 8%)",
-        'color1': 'rgba(23,30,40,1)',
-        'color2': 'rgba(30,37,47,1)',
+        from: {
+          50: 'hsl(212, 18%, 14%)',
+        },
+        to: {
+          50: "hsl(220, 16%, 11%)",
+        }
       },
       fontFamily: {
         sans: ['Overpass', 'sans-serif']
+      },
+      fontWeight: {
+        normal: '400',
+        bold: 700
       }
     },
   },
