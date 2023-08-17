@@ -19,4 +19,3 @@ submit.addEventListener('click', function (event) {
     document.querySelector('.thankyou').classList.remove('hidden')
     document.querySelector('.thankyou').classList.add('flex')
 })
-
