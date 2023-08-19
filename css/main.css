@@ -538,6 +538,10 @@ video {
   margin-bottom: 0px;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .mb-7 {
   margin-bottom: 1.75rem;
 }
@@ -560,10 +564,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .flex {
@@ -641,6 +641,11 @@ video {
   background-color: hsl(216 12% 8% / var(--tw-bg-opacity));
 }
 
+.bg-lightGrey {
+  --tw-bg-opacity: 1;
+  background-color: hsl(217 12% 63% / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -685,11 +690,6 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }
 
 .py-7 {
@@ -777,6 +777,11 @@ video {
 .hover\:text-orange:hover {
   --tw-text-opacity: 1;
   color: hsl(25 97% 53% / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
 
 @media (min-width: 375px) {

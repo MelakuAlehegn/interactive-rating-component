@@ -6,9 +6,11 @@ button.forEach((btn) => {
     btn.addEventListener('click', function () {
         button.forEach((bt) => {
             bt.classList.remove('bg-lightGrey')
+            bt.classList.remove('text-white')
         })
         btnValue = this.value
         this.classList.add('bg-lightGrey')
+        this.classList.add('text-white')
     })
 })
 submit.addEventListener('click', function (event) {
